@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
 
-    scroll-snap-type: x mandatory;
+    /* scroll-snap-type: x mandatory; */
    
 }
 
@@ -41,6 +41,7 @@
     scroll-behavior: smooth;
 
     /* scroll-snap-type: x mandatory; */
+   scroll-snap-align: start;
 }
 
 /*  Remove Scrollbar */ 
