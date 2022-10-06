@@ -6,11 +6,11 @@ const ReactCardSlider = (props) => {
 
     const slideLeft = () => {
         let slider = document.getElementById('slider');
-        slider.scrollLeft = slider.scrollLeft + 335;
+        slider.scrollLeft = slider.scrollLeft + 330;
     }
     const slideRight = () => {
          let slider = document.getElementById('slider');
-         slider.scrollLeft = slider.scrollLeft - 335;
+         slider.scrollLeft = slider.scrollLeft - 330;
     }
   return (
     <div id="main-slider-container">

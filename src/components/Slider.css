@@ -6,11 +6,21 @@
     position: relative;
     display: flex;
     align-items: center;
+
+    scroll-snap-type: x mandatory;
    
 }
 
 .slider-card-title, .slider-card-description {
-    margin: 10px 0px 5px 10px;
+    margin: 5px 0px 5px 10px;
+}
+.slider-cart-title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.slider-card-description {
+    opacity: 0.5;
+    font-size: 13px;
 }
 
 .slider-card-image {
@@ -29,6 +39,8 @@
     overflow-x: scroll;
     scrollbar-width: none;
     scroll-behavior: smooth;
+
+    /* scroll-snap-type: x mandatory; */
 }
 
 /*  Remove Scrollbar */ 
