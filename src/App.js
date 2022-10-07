@@ -1,10 +1,10 @@
-import './App.css';
-import ReactCardSlider from './components/ReactCardSlider';
+
+import ProductSlider from "./components/ProductSlider";
 
 function App() {
   return (
     <div id="body">
-      <ReactCardSlider />
+      <ProductSlider />
     </div>
   );
 }
