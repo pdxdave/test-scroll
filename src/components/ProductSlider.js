@@ -52,11 +52,12 @@ const Wrapper = styled.section`
     transform: rotate(-40deg);
     color: #fff;
     background: red;
-    text-indent: 20px;
+    text-indent: 10px;
+    
 }
 p {
-    font-size: 1.1rem;
-    /* padding-top: .25em; */
+    font-size: 1rem;
+    padding-top: .25em;
 }
 
 .btn-container {
