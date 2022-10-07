@@ -71,6 +71,7 @@ p {
     margin: 8px;
     cursor: pointer;
     opacity: .4;
+    outline: none;
 }
 
  .slider-container {
