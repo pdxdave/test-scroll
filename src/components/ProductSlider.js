@@ -8,11 +8,11 @@ const ProductSlider = () => {
 
     const moveLeft = () => {
         let slider = document.getElementById('slider')
-        slider.scrollLeft = slider.scrollLeft + 275;
+        slider.scrollLeft = slider.scrollLeft - 275;
     }
     const moveRight = () => {
         let slider = document.getElementById('slider')
-        slider.scrollLeft = slider.scrollLeft - 275;
+        slider.scrollLeft = slider.scrollLeft + 275;
     }
 
 
