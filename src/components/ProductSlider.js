@@ -1,6 +1,5 @@
 
 import styled from 'styled-components'
-import {FaChevronLeft, FaChevronRight} from 'react-icons/fa';
 import {BsChevronLeft, BsChevronRight} from 'react-icons/bs'
 import {amps} from '../data'
 
@@ -114,7 +113,5 @@ p {
 footer {
     padding: 10px;
 }
-
-
 `
 export default ProductSlider
