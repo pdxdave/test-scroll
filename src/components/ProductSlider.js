@@ -56,7 +56,7 @@ const Wrapper = styled.section`
 }
 p {
     font-size: 1.1rem;
-    padding-top: .25em;
+    /* padding-top: .25em; */
 }
 
 .btn-container {
