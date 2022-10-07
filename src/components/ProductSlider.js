@@ -103,6 +103,7 @@ p {
     border: 2px solid var(--clr-grey-600);
     
     border-radius: 6px;
+    overflow: hidden;
 }
 
 .slider-image {
