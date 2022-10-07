@@ -53,7 +53,10 @@ const Wrapper = styled.section`
     color: #fff;
     background: red;
     text-indent: 20px;
-    
+}
+p {
+    font-size: 1.1rem;
+    padding-top: .25em;
 }
 
 .btn-container {
@@ -61,7 +64,8 @@ const Wrapper = styled.section`
     justify-content: center;
 }
 .btn {
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: light;
     border: 2px solid black;
     border-radius: 50%;
     margin: 8px;
