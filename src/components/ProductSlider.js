@@ -1,6 +1,7 @@
 
 import styled from 'styled-components'
 import {FaChevronLeft, FaChevronRight} from 'react-icons/fa';
+import {BsChevronLeft, BsChevronRight} from 'react-icons/bs'
 import {amps} from '../data'
 
 
@@ -38,8 +39,8 @@ const ProductSlider = () => {
             </div>
         </div>
         <div className='btn-container'>
-            <FaChevronLeft onClick={moveLeft} className="btn"/> 
-            <FaChevronRight onClick={moveRight} className="btn"/>  
+            <BsChevronLeft onClick={moveLeft} className="btn"/> 
+            <BsChevronRight onClick={moveRight} className="btn"/>  
         </div>
     </Wrapper>
   )
